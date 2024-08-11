@@ -1,0 +1,76 @@
+:root {
+    --color2: #e9eef0;
+    --color1: #333;
+}
+.loginFormContainer{
+    padding: 1vh;
+    background-color: var(--color1);
+    width: 25vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3vh;
+}
+
+.loginForm{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttonBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.loginBtn{
+    border: none;
+    border-radius: 2vw;
+    padding: 1vw;
+    background-color: var(--color2);
+    color:var(--color1);
+    width: 45%;
+}
+
+
+.loginBtn:hover{
+    background-color: var(--color1);
+    color:var(--color2);
+    border: 1px solid var(--color2);
+    transition: .2s ease;
+}
+
+.rememberMeBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.loginInput{
+    border: 1px solid var(--color1);
+    border-radius: 3vw;
+    background-color: var(--color2);
+    color:var(--color1);
+    padding: 1vw;
+
+}
+
+.inputForm{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.labelLogin{
+    color: var(--color2)
+}

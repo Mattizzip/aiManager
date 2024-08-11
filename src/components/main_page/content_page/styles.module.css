@@ -1,0 +1,172 @@
+:root {
+    /* --color1: #8EF10F; */
+    --color2: #e9eef0;
+    --color1: #333;
+}
+.contentSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    align-items: start;
+}
+.placeholder{
+    color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.chatContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.chatBlock{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+.messages{
+    font-size: 2vh;
+    padding: 4vh;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    flex-direction: column;
+    justify-content: end;
+}
+.usersms{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.usersmsText{
+    padding: 1vh;
+    border: 1px solid var(--color1);
+    color: var(--color1);
+    border-radius: 2vh 2vh 0 2vh; 
+}
+
+.serversmsText{
+    padding: 1vh;
+    border: 1px solid var(--color1);
+    background-color: var(--color1);
+    color: var(--color2);
+    border-radius: 0 2vh 2vh 2vh; 
+}
+
+.sendForm{
+    width: 75vw;
+    border: 1px solid var(--color1);
+    border-radius: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2vw;
+    align-items: center;
+    height: 10vw;
+}
+
+.sendMessageArea{
+    font-size: 2vh;
+    background-color: var(--color2);
+    color: var(--color1);
+    outline: none;
+    resize: none;
+    height: 99%;
+    width: 94%;
+    border: none;
+}
+
+.sendBtn{
+    border: 1px solid var(--color1);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color2);
+    fill:var(--color1);
+    height: 4vw;
+    width: 4vw;
+}
+
+.sendBtn:hover{
+    fill: var(--color2);
+    background-color: var(--color1);
+    cursor: pointer;
+}
+
+.sendBtnIcon{
+    height: 2vw;
+    width: 2vw;
+}
+
+.uploader{
+    width: 85vw;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.uploaderForm{
+    fill: var(--color1);
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color1);
+    border-radius: 6vw;
+    cursor: pointer;
+    color:var(--color1);
+}
+
+.uploaderForm:hover{
+    fill: var(--color2);
+    background-color: var(--color1);
+    transition: .2s ease;
+}
+
+.uploadIcon{
+    width: 15%;
+    height: 15%;
+}
+.imagePreview{
+    width: 10%;
+    height: 10%;
+}
+
+.componentHeader{
+    color:var(--color1);
+    text-transform: uppercase;
+    font-size: 3vh;
+}
+.componentDescr{
+    color:var(--color1);
+}
+
+.submitUserImage{
+    background-color: var(--color2);
+    border: 1px solid var(--color1);
+    color: var(--color1);
+    padding: 2vh;
+    border-radius: 5vh
+}
+.submitUserImage:hover{
+    background-color: var(--color1);
+    color: var(--color2);
+    transition: .2s ease;
+    cursor: pointer;
+}

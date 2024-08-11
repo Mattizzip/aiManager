@@ -1,0 +1,67 @@
+:root {
+    /* --color1: #8EF10F; */
+    --color2: #e9eef0;
+    --color1: #333;
+}
+
+.subsBlock{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.typesBlock{
+    width: 95vw;
+    height: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.type{
+    padding: 5vw;
+    height: 95%;
+    width: 30vw;
+    border: 1px solid var(--color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3vw;
+}
+.compName{
+    font-size: 5vw;
+    text-transform: uppercase;
+    color: var(--color1);
+}
+.buySubs{
+    padding: 2vw;
+    border: 1px solid var(--color1);
+    border-radius: 10vw;
+    text-decoration: none;
+    text-align: center;
+    color: var(--color1);
+}
+.buySubs:hover{
+    padding: 3vw;
+    border: 1px solid var(--color1);
+    background-color: var(--color1);
+    color: var(--color2);
+    transition: .2s ease;
+}
+
+.subincl{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.orderDescr{
+    width: 80%;
+    text-align: center;
+}
