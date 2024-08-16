@@ -170,3 +170,16 @@
     transition: .2s ease;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .sendForm {
+        margin-top: 2vw;
+    }
+    .sendBtnIcon {
+        width: 3vh;
+        height: 3vh;
+    }
+    .sendBtn {
+        width: 4vh;
+        height: 4vh;
+    }
+}

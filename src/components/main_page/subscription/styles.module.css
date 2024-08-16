@@ -65,3 +65,121 @@
     width: 80%;
     text-align: center;
 }
+@media (max-width: 1024px) {
+    .subsBlock {
+        padding: 3vw;
+    }
+
+    .typesBlock {
+        width: 90%;
+    }
+
+    .type {
+        width: 40vw;
+        height: 25vh;
+        margin: 2vw;
+    }
+
+    .compName {
+        font-size: 3.5vw;
+    }
+
+    .buySubs {
+        padding: 1.5vw;
+        border-radius: 7vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .subsBlock {
+        padding: 4vw;
+    }
+
+    .typesBlock {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .type {
+        width: 80vw;
+        height: 30vh;
+        margin: 2vw 0;
+    }
+
+    .compName {
+        font-size: 3vw;
+    }
+
+    .buySubs {
+        padding: 1.2vw;
+        border-radius: 6vw;
+    }
+    .price {
+        margin: 2vw;
+    }
+    .orderDescr {
+        margin-top: 25vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .subsBlock {
+        padding: 5vw;
+    }
+
+    .typesBlock {
+        width: 100%;
+    }
+
+    .type {
+        width: 90vw;
+        margin: 2vw 0;
+        padding: 4vw;
+    }
+
+    .compName {
+        font-size: 2.5vw;
+    }
+
+    .buySubs {
+        padding: 1vw;
+        border-radius: 5vw;
+    }
+    .price {
+        margin: 5vw;
+    }
+    .orderDescr {
+        margin-top: 35vh;
+    }
+}
+@media (max-width: 375px) {
+    .subsBlock {
+        padding: 5vw;
+    }
+
+    .typesBlock {
+        width: 100%;
+    }
+
+    .type {
+        width: 90vw;
+        margin: 2vw 0;
+        padding: 4vw;
+    }
+
+    .compName {
+        font-size: 2.5vw;
+    }
+
+    .buySubs {
+        padding: 1vw;
+        border-radius: 5vw;
+    }
+    .price {
+        margin: 5vw;
+    }
+    .orderDescr {
+        margin-top: 35vh;
+    }
+}
+

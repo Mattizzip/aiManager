@@ -9,12 +9,24 @@ const AIChat = ({aiName}) =>
         { sender: 'user', text: 'Привет!' },
         { sender: 'server', text: 'Ну привет!' },
     ]);
+    let urlPath = "standartPath"
+    switch ({aiName}) {
+        case 'Chat GPT':
+            urlPath = 'URL To Docker Container with AI runner inside';
+        case 'Stable Diffusion':
+            return 'URL To Docker Container with AI runner inside';
+        case 'Open Sora':
+            urlPath = 'URL To Docker Container with AI runner inside';
+        case 'Text to 3D':
+            urlPath = 'URL To Docker Container with AI runner inside';
+
+        }
 
     const sendMessage = async () => {
         if (messageText.trim()) {
             setMessages([...messages, { sender: 'user', text: messageText }]);
             try {
-                const response = await fetch('https://backend.com/getGPTResponse', {
+                const response = await fetch(urlPath, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

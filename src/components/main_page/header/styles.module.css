@@ -64,3 +64,33 @@
     color: var(--color2);
     font-size: 3vw;
 }
+
+
+@media (max-width: 720px) {
+    .profileSvg, .activeProfileSvg {
+        width: 12vw;
+        height: 12vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navLogo {
+        width: 9vw;
+        height: 9vh;
+    }
+}
+@media (max-width: 480px) {
+    .profileSvg, .activeProfileSvg {
+        width: 12vw;
+        height: 12vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navLogo {
+        width: 9vw;
+        height: 9vh;
+    }
+}

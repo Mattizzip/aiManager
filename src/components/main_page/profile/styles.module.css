@@ -44,6 +44,7 @@
     border-radius: 5vh;
     text-align: center;
     padding: 2vw;
+    margin: 1vw;
     color: var(--color1);
 }
 .subBtn:hover{

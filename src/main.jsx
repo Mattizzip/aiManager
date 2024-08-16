@@ -14,6 +14,7 @@ import Registration from './components/login/registration.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+
     <BrowserRouter>
     <main>
       <Routes>
@@ -32,6 +33,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </Route>
       </Routes>
     </main>
-    </BrowserRouter>  
-  </React.StrictMode>,
+    </BrowserRouter>
+</React.StrictMode>,
 )

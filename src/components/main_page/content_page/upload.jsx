@@ -49,7 +49,7 @@ const Uploader = () => {
             formData.append('image', image);
 
             try {
-                const response = await fetch('https://backendCreate3Dfromimage.com/getGPTResponse', {
+                const response = await fetch('URL To Docker container with AI', {
                     method: 'POST',
                     body: formData,
                 });

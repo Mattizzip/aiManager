@@ -5,7 +5,7 @@
 .loginFormContainer{
     padding: 1vh;
     background-color: var(--color1);
-    width: 25vw;
+    width: 40vw;
     height: 18vw;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
 }
 
 .loginForm{
-    height: 80%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -36,7 +36,7 @@
     padding: 1vw;
     background-color: var(--color2);
     color:var(--color1);
-    width: 45%;
+    width: 10vw;
 }
 
 
@@ -73,4 +73,123 @@
 
 .labelLogin{
     color: var(--color2)
+}
+
+
+@media (min-width: 1024px) {
+    .loginFormContainer {
+        width: 30vw;
+        height: auto;
+        padding: 2vh;
+        border-radius: 2vh;
+    }
+
+    .loginBtn {
+        width: 12vw;
+        padding: 1.5vw;
+    }
+
+    .loginInput {
+        padding: 1.5vw;
+        border-radius: 1.5vw;
+    }
+
+    .inputForm {
+        flex-direction: row;
+        height: auto;
+    }
+
+    .buttonBlock {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .loginFormContainer {
+        width: 35vw;
+        height: auto;
+        padding: 2vh;
+        border-radius: 2vh;
+    }
+
+    .loginBtn {
+        width: 15vw;
+        padding: 1.5vw;
+    }
+
+    .loginInput {
+        padding: 1.5vw;
+        border-radius: 1.5vw;
+    }
+
+    .inputForm {
+        flex-direction: row;
+        height: auto;
+    }
+
+    .buttonBlock {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .loginFormContainer {
+        width: 80vw;
+        height: auto;
+        padding: 5vw;
+        border-radius: 1.5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .loginInput, .loginBtn  {
+        width: 100%; 
+        margin: 1vw;
+        border-radius: 1vw;
+    }
+
+    .inputForm {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .buttonBlock {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .loginFormContainer {
+        width: 90vw;
+        height: auto;
+        padding: 3vh;
+        border-radius: 1vh;
+    }
+
+    .loginBtn {
+        width: 80vw;
+        padding: 3vw;
+    }
+
+    .loginInput {
+        padding: 3vw;
+        border-radius: 1vw;
+    }
+
+    .inputForm {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .buttonBlock {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
