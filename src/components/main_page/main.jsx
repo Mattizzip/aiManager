@@ -19,7 +19,7 @@ const MainPage = () =>
                 setUser(resp.data);
             } catch (e) {
                 console.log(e);
-                navigate("/")
+                navigate("/login")
             }
         })();
     }, []);

@@ -1,0 +1,12 @@
+.infoSlider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sliderPhrase{
+    font-size: 5vw;
+}
+.sliderSentence{
+    font-size: 2vw;
+}
